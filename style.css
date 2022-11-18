@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background: #312450;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+    padding: 32px;
+
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(images/intro.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    height: 700px;
+
+    color: white;
+
+    text-align: center;
+}
+
+header h1 {
+    font-size: 25px;
+
+    margin-top: -250px;
+    margin-bottom: 30px;
+
+}
+
+header p {
+    font-size: 15px;
+
+    color: rgba(255, 255, 255, 0.55);
+
+    margin-bottom: 40px;
+}
+
+
+header a {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-decoration: none;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 15px;
+
+    width: 150px;
+    height: 30px;
+}
+
+
+section .dedicatorias {
+    display: flex;
+    flex-direction: column;
+}
+
+
+article {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    color: white;
+    transition: transform .3s;
+}
+
+article img {
+    width: 150px;
+}
+
+article p {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-size: 13px;
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.55);
+
+    
+}
+
+article:hover {
+    transform: scale(1.1);
+}
+
+article:nth-child(1) {
+    background-color: #5e42a6;
+}
+
+article:nth-child(2) {
+    background-color: #6b4bbc;
+}
+
+article:nth-child(3) {
+    background-color: #7854d4;
+}
+
+article:nth-child(4) {
+    background-color: #8e66f1;
+}
+
+
+.fotos {
+    background-color:#9d76ff;
+
+    background-image: url(images/intro.svg);
+    background-position: top right;
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    
+}
+
+
+
+.fotosEngraçadas {
+    display: flex;
+    flex-direction: column;
+
+    padding: 32px;
+
+
+    align-items: center;
+}
+
+.fotosEngraçadas article {
+    background-color: white;
+    padding: 10px;
+
+    width: 300px;
+
+    margin-bottom: 30px;
+
+    transition: transform .3s;
+}
+
+.fotosEngraçadas article:hover {
+    transform: scale(1.1);
+}
+
+.fotosEngraçadas div p{
+    color: black;
+}
+
+
+.fotosEngraçadas img {
+    width: 280px;
+    margin-bottom: 15px;
+}
+
+.fotosEngraçadas video {
+    width: 280px;
+    margin-bottom: 15px;
+}
+
+.fotosEngraçadas h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+    color: white;
+}
